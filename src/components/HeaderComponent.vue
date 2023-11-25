@@ -3,10 +3,10 @@
 
 <template>
     <header>
-        <router-link :to="'/'">
+        <router-link :to="'/'" class="logo-link">
             <div class="logo">
                 <img src="../assets/img/logo.png">
-                <p>Nova Arte</p>
+                <h1>Nova Arte</h1>
             </div>
         </router-link>
     </header>
@@ -26,13 +26,18 @@ header {
     padding-left: 16px;
 }
 
-.logo > img {
+.logo img {
     width: 80px;
 }
 
-.logo > p {
-    margin: auto;
+.logo h1 {
+    color: black;
+    margin: 20px;
     font-size:xx-large;
     font-family: 'Inter', sans-serif;
+}
+
+.logo-link {
+    text-decoration: none;
 }
 </style>
