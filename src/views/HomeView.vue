@@ -8,8 +8,8 @@ import HeaderComponent from '../components/HeaderComponent.vue';
 
 <main>
     <div class="textos">
-        <h1>Lorem ipsum</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum sequi dicta eligendi harum praesentium totam rem quidem vero amet, minus dolor! Dolores veritatis placeat impedit tenetur iste itaque. Enim, doloremque!</p>
+        <h1>Artes inovadoras</h1>
+        <p>Descubra novas artes com o poder de uma API lotada com artes cobiçadas ao redor de todo o globo terrestre.</p>
     </div>
 
     <div class="ilustracao">
