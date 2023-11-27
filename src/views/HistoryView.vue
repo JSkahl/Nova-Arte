@@ -4,8 +4,9 @@ import HeaderComponent from '../components/HeaderComponent.vue';
 
 <template>
 <HeaderComponent />
-gerador
+    historico
 </template>
 
 <style>
+
 </style>

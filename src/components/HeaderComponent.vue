@@ -11,10 +11,18 @@
         </router-link>
 
             <div class="links">
-                <p>Home</p>
-                <p>Gerador</p>
-                <p>Histórico</p>
-                <p>Favoritos</p>
+                <router-link to="/" class="logo-link">
+                    <p>Home</p>
+                </router-link>
+                <router-link to="/generator" class="logo-link">
+                    <p>Gerador</p>
+                </router-link>
+                <router-link to="/history" class="logo-link">
+                    <p>Histórico</p>
+                </router-link>
+                <router-link to="/favorite" class="logo-link">
+                    <p>Favoritos</p>
+                </router-link>
             </div>
     </header>
 </template>

@@ -4,7 +4,7 @@ import HeaderComponent from '../components/HeaderComponent.vue';
 
 <template>
 <HeaderComponent />
-gerador
+favoritos
 </template>
 
 <style>
