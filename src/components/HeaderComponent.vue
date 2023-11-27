@@ -9,6 +9,13 @@
                 <h1>Nova Arte</h1>
             </div>
         </router-link>
+
+            <div class="links">
+                <p>Home</p>
+                <p>Gerador</p>
+                <p>Histórico</p>
+                <p>Favoritos</p>
+            </div>
     </header>
 </template>
 
@@ -17,6 +24,7 @@
 
 header {
     display: flex;
+    justify-content: space-between;
     height: 80px;
     box-shadow: 0px -1px 10px 1px black;
 }
@@ -39,5 +47,16 @@ header {
 
 .logo-link {
     text-decoration: none;
+}
+
+.links {
+    display: flex;
+    width: 40vw;
+    justify-content: space-around;
+    padding-top: 3vh;
+}
+
+.links p {
+    font-size: x-large;
 }
 </style>
