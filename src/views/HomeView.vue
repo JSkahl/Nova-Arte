@@ -37,12 +37,10 @@ main {
 
 .ilustracao {
     display: flex;
-    margin-top: 5%;
-    margin-right: 5%;
 }
 
 .ilustracao > img {
     width: 50vw;
-    height: 75vh;
+    height: 100vh;
 }
 </style>
