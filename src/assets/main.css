@@ -7,7 +7,7 @@ body {
   background-color: rgb(233, 233, 233);
 }
 
-p {
+p, h1 {
   font-family: 'Inter', sans-serif;
   color: #160d00;
 }
